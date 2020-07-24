@@ -155,7 +155,9 @@ class Materia {
 		self::createFile($str, self::PROJ_DIR . $str . '/res/main.css', $inCss);
 	}
 
-	/*UTILITIES*/
+	/*
+	UTILITIES
+	*/
 	static function trueRead(string $str) {
 		$returned = '';
 		foreach(file($str) as $line) {

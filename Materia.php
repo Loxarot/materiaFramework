@@ -11,7 +11,9 @@ class Materia {
 	const WB_PATH = './materia/workBench.txt';
 	const PROJ_DIR = '../projects/';
 
-	/*WORKBENCH*/
+	/*
+	WORKBENCH
+	*/
 	//Setting workbench
 	static function setWorkBench() {
 		copy(self::LIB_DIR . 'empty.txt', self::WB_PATH);
